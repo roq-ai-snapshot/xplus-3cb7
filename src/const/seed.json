@@ -1,0 +1,2152 @@
+[
+  {
+    "customer": [
+      {
+        "id": "1d71943a-c253-4c97-8ca0-63702f076df8",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "phone": "1234567890",
+        "address": "123 Main St",
+        "created_at": "2023-08-15T11:35:57.649Z",
+        "updated_at": "2023-08-15T13:39:59.134Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa881683-6667-43ce-8d23-f3868a999db3",
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "phone": "9876543210",
+        "address": "456 Elm St",
+        "created_at": "2023-08-15T10:03:52.325Z",
+        "updated_at": "2023-08-15T23:35:52.319Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a2d7ccc-9faf-42cf-bc7e-4634bcc6ff8c",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "phone": "5555555555",
+        "address": "789 Oak St",
+        "created_at": "2023-08-15T08:56:42.774Z",
+        "updated_at": "2023-08-15T04:50:48.564Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9033a624-955c-4934-90f4-1f76754a777e",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "phone": "9999999999",
+        "address": "321 Pine St",
+        "created_at": "2023-08-15T06:57:18.704Z",
+        "updated_at": "2023-08-15T22:05:05.776Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24cf1a70-4388-4df4-a629-c0de3907ceb2",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "phone": "1111111111",
+        "address": "987 Maple St",
+        "created_at": "2023-08-16T02:28:42.131Z",
+        "updated_at": "2023-08-15T11:56:04.807Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "e036ccc1-1c02-49a7-ab3e-3209bd5832a9",
+        "name": "Summer Sale",
+        "start_date": "2023-08-15T04:25:08.354Z",
+        "end_date": "2023-08-15T05:54:11.405Z",
+        "status": "Active",
+        "created_at": "2023-08-15T02:58:20.357Z",
+        "updated_at": "2023-08-15T14:22:07.216Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0bd85a3-d3af-4e8f-a970-2ff9275ffaa8",
+        "name": "Holiday Promotion",
+        "start_date": "2023-08-16T01:04:15.906Z",
+        "end_date": "2023-08-15T20:21:52.884Z",
+        "status": "Paused",
+        "created_at": "2023-08-15T04:45:10.594Z",
+        "updated_at": "2023-08-15T12:43:07.479Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7bfc6e9-af94-4853-8431-d53f5158f971",
+        "name": "New Product Launch",
+        "start_date": "2023-08-15T20:47:42.528Z",
+        "end_date": "2023-08-16T01:33:25.888Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T23:46:37.217Z",
+        "updated_at": "2023-08-15T04:40:33.906Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fefedb7b-7fce-4b1e-aa4c-3623e0ea64a1",
+        "name": "Back-to-School Campaign",
+        "start_date": "2023-08-15T18:42:18.968Z",
+        "end_date": "2023-08-15T16:59:45.002Z",
+        "status": "Upcoming",
+        "created_at": "2023-08-15T14:09:41.417Z",
+        "updated_at": "2023-08-15T04:18:33.624Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d9d368e-6f34-47fd-bc1a-658813c87c4c",
+        "name": "End of Year Clearance",
+        "start_date": "2023-08-15T21:32:12.171Z",
+        "end_date": "2023-08-15T20:21:43.345Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-16T00:51:26.425Z",
+        "updated_at": "2023-08-15T04:58:05.080Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "lead": [
+      {
+        "id": "d413c059-0ffb-4362-b432-bb4311a882ba",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "status": "New",
+        "created_at": "2023-08-15T13:01:14.515Z",
+        "updated_at": "2023-08-15T22:02:01.282Z",
+        "campaign_id": "d7bfc6e9-af94-4853-8431-d53f5158f971",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e65306bb-a180-4fc1-b52f-db7f109b03f1",
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "status": "Contacted",
+        "created_at": "2023-08-15T21:08:33.071Z",
+        "updated_at": "2023-08-15T09:41:38.042Z",
+        "campaign_id": "d7bfc6e9-af94-4853-8431-d53f5158f971",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61455237-8d88-4214-808b-19addb7438a1",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "status": "Qualified",
+        "created_at": "2023-08-15T19:22:03.300Z",
+        "updated_at": "2023-08-15T06:17:00.510Z",
+        "campaign_id": "a0bd85a3-d3af-4e8f-a970-2ff9275ffaa8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "402d9a94-9c93-42f7-9e30-ea732c69e00f",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "status": "Lost",
+        "created_at": "2023-08-15T06:16:53.484Z",
+        "updated_at": "2023-08-15T07:43:46.872Z",
+        "campaign_id": "8d9d368e-6f34-47fd-bc1a-658813c87c4c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f46c774c-b71d-4b46-b89a-ce5b59c23b8e",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "status": "Converted",
+        "created_at": "2023-08-15T11:41:44.035Z",
+        "updated_at": "2023-08-15T05:00:39.175Z",
+        "campaign_id": "8d9d368e-6f34-47fd-bc1a-658813c87c4c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "78bacacd-3da3-4fa9-86ce-bac8bc555b26",
+        "email": "Deondre.Schultz54@yahoo.com",
+        "firstName": "Emil",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18178035",
+        "tenantId": null
+      },
+      {
+        "reference": "45058922-825d-49b7-8cad-e6bffcca99fa",
+        "email": "Joel.Cole-Schowalter99@gmail.com",
+        "firstName": "Luis",
+        "lastName": "Hyatt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24342856",
+        "tenantId": null
+      },
+      {
+        "reference": "3426505c-b5cd-4bd2-93e0-191d96f42d9b",
+        "email": "Ashton39@hotmail.com",
+        "firstName": "Tianna",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/925.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1c819e9d-744e-4276-98eb-358342682700",
+        "email": "Maybelle.Hayes@gmail.com",
+        "firstName": "Alta",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/646830",
+        "tenantId": null
+      },
+      {
+        "reference": "7107017c-4203-4705-a90a-cbd11006560c",
+        "email": "Deontae.Lindgren73@hotmail.com",
+        "firstName": "Allan",
+        "lastName": "Bashirian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23160107",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "c8b426f3-2c2a-4906-a0c0-8115c56ed61e",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "phone": "1234567890",
+        "address": "123 Main St, City, State",
+        "created_at": "2023-08-15T11:55:41.818Z",
+        "updated_at": "2023-08-15T04:35:28.744Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1137117d-5cfa-4ec4-9e37-ab968b181222",
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "phone": "9876543210",
+        "address": "456 Elm St, City, State",
+        "created_at": "2023-08-15T20:45:33.249Z",
+        "updated_at": "2023-08-15T05:59:59.311Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de329c0c-b7eb-42b3-bf1b-f433d7c0e38f",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "phone": "5555555555",
+        "address": "789 Oak St, City, State",
+        "created_at": "2023-08-16T00:45:37.226Z",
+        "updated_at": "2023-08-15T12:29:41.492Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78f2f162-a074-4aed-a800-57fd34cd0706",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "phone": "9999999999",
+        "address": "321 Pine St, City, State",
+        "created_at": "2023-08-15T15:06:02.494Z",
+        "updated_at": "2023-08-15T18:53:59.418Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7dc7bba1-f29f-420d-900f-5c6078b4203b",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "phone": "1111111111",
+        "address": "654 Maple St, City, State",
+        "created_at": "2023-08-15T22:42:26.938Z",
+        "updated_at": "2023-08-15T06:25:07.464Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "058fbeb5-66fe-4554-95a2-5c7cb0bfb270",
+        "name": "Summer Sale",
+        "start_date": "2023-08-15T13:10:06.201Z",
+        "end_date": "2023-08-15T04:51:16.598Z",
+        "status": "Active",
+        "created_at": "2023-08-15T12:32:27.937Z",
+        "updated_at": "2023-08-15T09:19:53.892Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f19a7c78-b646-4ef5-a068-3868564f878d",
+        "name": "Holiday Promotion",
+        "start_date": "2023-08-15T08:38:38.286Z",
+        "end_date": "2023-08-16T00:05:34.577Z",
+        "status": "Paused",
+        "created_at": "2023-08-15T17:17:56.537Z",
+        "updated_at": "2023-08-15T06:50:48.243Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6e41e38-661e-4927-8b08-32bde19256d9",
+        "name": "New Product Launch",
+        "start_date": "2023-08-15T16:57:21.050Z",
+        "end_date": "2023-08-15T14:05:54.017Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T23:54:21.707Z",
+        "updated_at": "2023-08-15T22:54:21.654Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f04278d0-a229-4809-af9a-ee492c5e1dc5",
+        "name": "Back-to-School Campaign",
+        "start_date": "2023-08-15T03:34:31.726Z",
+        "end_date": "2023-08-16T00:13:05.416Z",
+        "status": "Upcoming",
+        "created_at": "2023-08-15T06:00:24.525Z",
+        "updated_at": "2023-08-15T05:56:07.444Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af3a908e-c468-4402-9c5f-7cfbdedc401b",
+        "name": "End of Year Clearance",
+        "start_date": "2023-08-15T03:14:08.538Z",
+        "end_date": "2023-08-15T16:28:30.896Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T23:56:03.262Z",
+        "updated_at": "2023-08-15T04:12:07.974Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "lead": [
+      {
+        "id": "34eb1841-4197-404c-b892-a30a14cf0343",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "status": "New",
+        "created_at": "2023-08-15T14:19:11.935Z",
+        "updated_at": "2023-08-15T02:55:34.467Z",
+        "campaign_id": "c6e41e38-661e-4927-8b08-32bde19256d9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11096090-1f29-44f8-8edd-22906bd41967",
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "status": "Contacted",
+        "created_at": "2023-08-15T03:08:34.040Z",
+        "updated_at": "2023-08-15T06:30:07.245Z",
+        "campaign_id": "058fbeb5-66fe-4554-95a2-5c7cb0bfb270",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da529ff3-aa12-4872-85a9-f57158ab0c21",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "status": "Qualified",
+        "created_at": "2023-08-15T13:37:12.427Z",
+        "updated_at": "2023-08-15T12:54:51.742Z",
+        "campaign_id": "f04278d0-a229-4809-af9a-ee492c5e1dc5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "070eff23-d58f-4885-8eb8-465deff5a881",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "status": "Lost",
+        "created_at": "2023-08-15T13:24:57.205Z",
+        "updated_at": "2023-08-15T16:41:41.954Z",
+        "campaign_id": "af3a908e-c468-4402-9c5f-7cfbdedc401b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b1150e0-b853-444b-b844-8470f52fde53",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "status": "Converted",
+        "created_at": "2023-08-15T20:49:25.479Z",
+        "updated_at": "2023-08-15T18:01:33.805Z",
+        "campaign_id": "f04278d0-a229-4809-af9a-ee492c5e1dc5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b9bf6ec5-209f-4043-9b96-683ff3c9be98",
+        "email": "Cathrine_Ratke6@hotmail.com",
+        "firstName": "Alvis",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94568628",
+        "tenantId": null
+      },
+      {
+        "reference": "85101912-f7c5-4ccf-addb-fa0d5bdc548b",
+        "email": "Elvera.Harris@yahoo.com",
+        "firstName": "Isom",
+        "lastName": "Pouros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22521242",
+        "tenantId": null
+      },
+      {
+        "reference": "69514a4e-ffbc-4bf9-9c0b-ddfd6251b799",
+        "email": "Burdette_Grant@yahoo.com",
+        "firstName": "Montana",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92171034",
+        "tenantId": null
+      },
+      {
+        "reference": "d5abbcba-bc67-4749-b741-761a9f74adf1",
+        "email": "Mason27@yahoo.com",
+        "firstName": "Mattie",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38053695",
+        "tenantId": null
+      },
+      {
+        "reference": "422709ca-3eec-4054-9e76-5f5efa33c772",
+        "email": "Noelia_Ullrich99@hotmail.com",
+        "firstName": "Norma",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26093564",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "713b5a55-cd2d-4d4a-82b8-127fa89f6687",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "phone": "1234567890",
+        "address": "123 Main St, City, State",
+        "created_at": "2023-08-15T15:20:01.331Z",
+        "updated_at": "2023-08-15T23:54:29.931Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7890d997-70b8-441d-a1ce-30808620f828",
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "phone": "9876543210",
+        "address": "456 Elm St, City, State",
+        "created_at": "2023-08-15T08:14:09.258Z",
+        "updated_at": "2023-08-16T02:18:48.958Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f1753b2-3194-4976-9d3f-602830b8cc0c",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "phone": "5555555555",
+        "address": "789 Oak St, City, State",
+        "created_at": "2023-08-15T15:34:28.521Z",
+        "updated_at": "2023-08-15T14:35:32.827Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5448e82f-3bc8-47bb-aa20-340ab862ad35",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "phone": "9999999999",
+        "address": "321 Pine St, City, State",
+        "created_at": "2023-08-15T10:23:25.334Z",
+        "updated_at": "2023-08-15T05:16:02.987Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7ab99a4-597b-41ab-aa93-312787af4646",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "phone": "1111111111",
+        "address": "654 Maple St, City, State",
+        "created_at": "2023-08-15T12:04:19.038Z",
+        "updated_at": "2023-08-15T05:09:48.706Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "981dd12a-400b-4373-8ce0-ec4fa413e3bf",
+        "name": "Summer Sale",
+        "start_date": "2023-08-15T05:39:19.339Z",
+        "end_date": "2023-08-15T09:00:42.939Z",
+        "status": "Active",
+        "created_at": "2023-08-15T23:42:00.234Z",
+        "updated_at": "2023-08-15T09:29:16.076Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f4731b5-aa49-4345-9773-a1be1ccca203",
+        "name": "Holiday Promotion",
+        "start_date": "2023-08-15T11:45:32.407Z",
+        "end_date": "2023-08-15T07:58:13.522Z",
+        "status": "Paused",
+        "created_at": "2023-08-15T04:46:43.281Z",
+        "updated_at": "2023-08-15T23:49:48.643Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf92be41-33a0-4143-81e1-dd5b0761e863",
+        "name": "New Product Launch",
+        "start_date": "2023-08-15T18:02:50.261Z",
+        "end_date": "2023-08-15T14:36:48.498Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T07:38:40.176Z",
+        "updated_at": "2023-08-16T02:07:42.515Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6415e7f3-433c-4550-b9c6-f5f6d5912002",
+        "name": "Back-to-School Campaign",
+        "start_date": "2023-08-15T09:41:31.894Z",
+        "end_date": "2023-08-15T15:35:09.881Z",
+        "status": "Upcoming",
+        "created_at": "2023-08-15T12:42:04.266Z",
+        "updated_at": "2023-08-15T03:52:38.604Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fe5c354-07ec-4aa3-9987-4883e7f13496",
+        "name": "End of Year Clearance",
+        "start_date": "2023-08-15T10:34:13.573Z",
+        "end_date": "2023-08-15T05:46:15.805Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T04:07:27.476Z",
+        "updated_at": "2023-08-15T04:57:07.901Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "lead": [
+      {
+        "id": "7d5bde8e-a93a-4648-a0b8-2a4c27085e0c",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "status": "New",
+        "created_at": "2023-08-16T00:49:11.180Z",
+        "updated_at": "2023-08-15T23:22:23.112Z",
+        "campaign_id": "981dd12a-400b-4373-8ce0-ec4fa413e3bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53bce1c5-265d-4285-8304-a268cc6bcd50",
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "status": "Contacted",
+        "created_at": "2023-08-15T11:24:08.787Z",
+        "updated_at": "2023-08-15T17:15:54.535Z",
+        "campaign_id": "6f4731b5-aa49-4345-9773-a1be1ccca203",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b2d64e8-a846-480e-9388-b97b61425af6",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "status": "Qualified",
+        "created_at": "2023-08-15T12:41:05.429Z",
+        "updated_at": "2023-08-16T01:34:05.315Z",
+        "campaign_id": "cf92be41-33a0-4143-81e1-dd5b0761e863",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6b86562-3b9b-4867-a682-42fcc95cc286",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "status": "Lost",
+        "created_at": "2023-08-16T02:17:54.961Z",
+        "updated_at": "2023-08-15T12:04:03.643Z",
+        "campaign_id": "5fe5c354-07ec-4aa3-9987-4883e7f13496",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23e5262b-99c3-4a84-8d0a-dbb72569d416",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "status": "Converted",
+        "created_at": "2023-08-15T03:25:58.366Z",
+        "updated_at": "2023-08-15T21:36:58.672Z",
+        "campaign_id": "6f4731b5-aa49-4345-9773-a1be1ccca203",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2226f304-0b69-4cab-ba87-8f1d7417b6d8",
+        "email": "Bradly41@hotmail.com",
+        "firstName": "Caitlyn",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1240.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8802b091-6987-4c8b-8a9a-efa7ffcfcb5c",
+        "email": "Jaclyn.Klocko48@yahoo.com",
+        "firstName": "Kaycee",
+        "lastName": "Prohaska",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99395316",
+        "tenantId": null
+      },
+      {
+        "reference": "0020112f-2864-4c78-a6fd-d9588c9b0295",
+        "email": "Crystel11@gmail.com",
+        "firstName": "Reba",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1236.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b299e83e-815a-4917-9f3b-3f26dcf2a0ea",
+        "email": "Luna_Russel@gmail.com",
+        "firstName": "Lillie",
+        "lastName": "Tillman-Lakin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84213925",
+        "tenantId": null
+      },
+      {
+        "reference": "02437566-a3ea-4149-9115-51ac35c316d1",
+        "email": "Jaiden.Dietrich82@gmail.com",
+        "firstName": "Clinton",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1135.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "0ce6f68c-9985-40af-bf3b-7c86c064d1bb",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "phone": "1234567890",
+        "address": "123 Main St, City, State",
+        "created_at": "2023-08-15T05:51:12.182Z",
+        "updated_at": "2023-08-15T22:49:33.082Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42537dad-a52f-4e5b-a176-a550781d6152",
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "phone": "9876543210",
+        "address": "456 Elm St, City, State",
+        "created_at": "2023-08-15T12:44:40.953Z",
+        "updated_at": "2023-08-15T09:09:11.419Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "912df44b-5035-4d38-bb4e-5661dbb34ed6",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "phone": "5555555555",
+        "address": "789 Oak St, City, State",
+        "created_at": "2023-08-15T21:09:09.775Z",
+        "updated_at": "2023-08-15T23:44:41.474Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbf79542-f9f5-415f-a563-745ce8ca88bb",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "phone": "9999999999",
+        "address": "321 Pine St, City, State",
+        "created_at": "2023-08-15T15:07:27.282Z",
+        "updated_at": "2023-08-16T02:20:26.289Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7c5d897-d5b3-48df-9b87-913e589049c8",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "phone": "1111111111",
+        "address": "654 Maple St, City, State",
+        "created_at": "2023-08-15T15:53:51.505Z",
+        "updated_at": "2023-08-15T16:13:15.249Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "3ad0d1e7-2785-44af-99ac-103c65042c3a",
+        "name": "Summer Sale",
+        "start_date": "2023-08-15T08:18:17.323Z",
+        "end_date": "2023-08-15T09:30:37.597Z",
+        "status": "Active",
+        "created_at": "2023-08-15T20:45:32.392Z",
+        "updated_at": "2023-08-15T05:41:22.714Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2f46273-91f3-4f61-8082-54e1b979079a",
+        "name": "Holiday Promotion",
+        "start_date": "2023-08-15T14:07:15.767Z",
+        "end_date": "2023-08-15T18:41:12.651Z",
+        "status": "Paused",
+        "created_at": "2023-08-15T03:32:13.687Z",
+        "updated_at": "2023-08-15T12:55:25.964Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dd602e2-e4f7-40f9-a233-35cd609fe072",
+        "name": "New Product Launch",
+        "start_date": "2023-08-15T17:34:48.889Z",
+        "end_date": "2023-08-15T03:11:27.248Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T10:25:53.958Z",
+        "updated_at": "2023-08-15T17:18:12.289Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acdf4721-ee8e-4172-a0ce-81d3aa2f6657",
+        "name": "Back-to-School Campaign",
+        "start_date": "2023-08-15T13:32:48.228Z",
+        "end_date": "2023-08-15T22:25:47.096Z",
+        "status": "Upcoming",
+        "created_at": "2023-08-15T10:07:08.487Z",
+        "updated_at": "2023-08-15T03:57:27.272Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "301a588d-ce82-4ef5-8a79-f3e58cdcb897",
+        "name": "End of Year Clearance",
+        "start_date": "2023-08-15T18:52:56.011Z",
+        "end_date": "2023-08-16T02:20:32.692Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T07:36:35.084Z",
+        "updated_at": "2023-08-15T14:49:59.405Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "lead": [
+      {
+        "id": "15f1a986-1083-483a-b7a8-ddcd825c314b",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "status": "New",
+        "created_at": "2023-08-15T05:55:49.536Z",
+        "updated_at": "2023-08-16T00:54:05.313Z",
+        "campaign_id": "301a588d-ce82-4ef5-8a79-f3e58cdcb897",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c3a883d-e5ad-49ae-a06e-092b936d2dde",
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "status": "Contacted",
+        "created_at": "2023-08-15T10:03:24.679Z",
+        "updated_at": "2023-08-15T08:56:29.309Z",
+        "campaign_id": "c2f46273-91f3-4f61-8082-54e1b979079a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d85025cc-d1d7-493d-9abe-f57e3986194f",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "status": "Qualified",
+        "created_at": "2023-08-15T07:22:47.250Z",
+        "updated_at": "2023-08-15T22:23:39.365Z",
+        "campaign_id": "301a588d-ce82-4ef5-8a79-f3e58cdcb897",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "091838ba-ac56-4ef0-9073-f5fa48bdb125",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "status": "Lost",
+        "created_at": "2023-08-15T04:14:36.810Z",
+        "updated_at": "2023-08-15T23:08:15.961Z",
+        "campaign_id": "acdf4721-ee8e-4172-a0ce-81d3aa2f6657",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b509ac6e-cc0b-44f6-b6a8-0ba619ef26d9",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "status": "Converted",
+        "created_at": "2023-08-16T01:23:28.061Z",
+        "updated_at": "2023-08-15T22:39:07.496Z",
+        "campaign_id": "8dd602e2-e4f7-40f9-a233-35cd609fe072",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1fb2cc51-a070-489d-b7ff-cdd9d73da769",
+        "email": "Jeffery.Hirthe78@yahoo.com",
+        "firstName": "Frances",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/609.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "de723abc-52f8-4ad1-b9d2-c7f2335637a6",
+        "email": "Jennifer_Kemmer37@hotmail.com",
+        "firstName": "Mathias",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49747915",
+        "tenantId": null
+      },
+      {
+        "reference": "e2e673ef-b6ab-4320-90fb-6f1ec3e702b3",
+        "email": "Ona.Ernser27@gmail.com",
+        "firstName": "Edmond",
+        "lastName": "Pfeffer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1234.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "79fa42b8-ff95-42e7-bc89-e20d52605a3c",
+        "email": "Reta_Fritsch29@yahoo.com",
+        "firstName": "Christop",
+        "lastName": "Lynch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/951.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ea2331e8-c904-45de-bd5e-7a32e5ec7e8a",
+        "email": "Isabel.Koelpin63@hotmail.com",
+        "firstName": "Kara",
+        "lastName": "Breitenberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1201.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "034263ba-c7f6-40d8-8f67-9061c0e30d96",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "phone": "1234567890",
+        "address": "123 Main St, City, State",
+        "created_at": "2023-08-15T21:18:59.613Z",
+        "updated_at": "2023-08-15T08:42:21.923Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f79d74f4-b730-42ba-9012-f31840cb0045",
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "phone": "9876543210",
+        "address": "456 Elm St, City, State",
+        "created_at": "2023-08-15T21:01:09.032Z",
+        "updated_at": "2023-08-16T01:36:24.963Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4fe6f57-1b5d-4e11-8100-f3b68ead25f6",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "phone": "5555555555",
+        "address": "789 Oak St, City, State",
+        "created_at": "2023-08-15T16:22:30.253Z",
+        "updated_at": "2023-08-15T13:37:01.659Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d748648-bd23-4f8a-b11e-0da57e5bb1c3",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "phone": "9999999999",
+        "address": "321 Pine St, City, State",
+        "created_at": "2023-08-15T13:01:01.393Z",
+        "updated_at": "2023-08-16T01:33:52.280Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1815533-23b9-40cc-b7b1-eb3d8f03acd4",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "phone": "1111111111",
+        "address": "654 Maple St, City, State",
+        "created_at": "2023-08-15T11:42:03.336Z",
+        "updated_at": "2023-08-16T01:06:19.281Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "bb9355be-d130-4530-8aa9-cb8bb04d84d4",
+        "name": "Summer Sale",
+        "start_date": "2023-08-15T15:08:06.336Z",
+        "end_date": "2023-08-15T08:04:08.835Z",
+        "status": "Active",
+        "created_at": "2023-08-15T07:01:01.326Z",
+        "updated_at": "2023-08-15T14:03:36.142Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12782050-ae2c-42ea-b68d-a1c026cf95f8",
+        "name": "Holiday Promotion",
+        "start_date": "2023-08-15T13:48:41.622Z",
+        "end_date": "2023-08-15T17:29:15.030Z",
+        "status": "Paused",
+        "created_at": "2023-08-15T04:54:26.013Z",
+        "updated_at": "2023-08-15T10:05:55.420Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fff06d6-4324-4c9e-8d58-32aa650e7fa1",
+        "name": "New Product Launch",
+        "start_date": "2023-08-15T14:23:03.322Z",
+        "end_date": "2023-08-15T12:15:27.492Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T08:19:53.537Z",
+        "updated_at": "2023-08-15T06:29:48.151Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b65822bd-bf06-458e-a442-443030720cab",
+        "name": "Back-to-School Campaign",
+        "start_date": "2023-08-15T16:02:27.307Z",
+        "end_date": "2023-08-15T18:49:15.765Z",
+        "status": "Upcoming",
+        "created_at": "2023-08-15T12:30:56.461Z",
+        "updated_at": "2023-08-15T02:48:49.216Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3902512e-d0f5-4615-9080-8f573ab9565f",
+        "name": "End of Year Clearance",
+        "start_date": "2023-08-15T08:38:43.695Z",
+        "end_date": "2023-08-15T13:41:38.003Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T11:04:50.953Z",
+        "updated_at": "2023-08-15T14:14:13.574Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "lead": [
+      {
+        "id": "4abf311e-17b8-42e4-b760-fde37e17352a",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "status": "New",
+        "created_at": "2023-08-15T12:31:28.941Z",
+        "updated_at": "2023-08-15T08:37:56.221Z",
+        "campaign_id": "bb9355be-d130-4530-8aa9-cb8bb04d84d4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5dcadcf-f533-400d-9abc-7c8514d9b4e1",
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "status": "Contacted",
+        "created_at": "2023-08-15T07:02:49.282Z",
+        "updated_at": "2023-08-15T23:39:27.065Z",
+        "campaign_id": "2fff06d6-4324-4c9e-8d58-32aa650e7fa1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8c139e1-8429-4599-a156-f351ea7e1534",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "status": "Qualified",
+        "created_at": "2023-08-15T15:18:30.220Z",
+        "updated_at": "2023-08-15T20:58:00.380Z",
+        "campaign_id": "12782050-ae2c-42ea-b68d-a1c026cf95f8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c740f956-16a9-457b-b9c3-1c0e29b2828b",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "status": "Lost",
+        "created_at": "2023-08-15T21:40:28.354Z",
+        "updated_at": "2023-08-15T16:15:41.055Z",
+        "campaign_id": "b65822bd-bf06-458e-a442-443030720cab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "959bdec7-eb0d-460f-900a-322deecd0af9",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "status": "Converted",
+        "created_at": "2023-08-15T23:36:13.955Z",
+        "updated_at": "2023-08-15T15:20:15.040Z",
+        "campaign_id": "2fff06d6-4324-4c9e-8d58-32aa650e7fa1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d628511b-037a-49a9-9597-69675fdf4c5b",
+        "email": "Dillon51@yahoo.com",
+        "firstName": "Grayce",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42752755",
+        "tenantId": null
+      },
+      {
+        "reference": "a0daa81e-ec27-4621-9f08-76bea7cd4583",
+        "email": "Marge_Hoppe26@hotmail.com",
+        "firstName": "Lloyd",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/102.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "846be892-386f-4576-a817-dc09e8b55bac",
+        "email": "Montana_Reichel-Gerhold@hotmail.com",
+        "firstName": "Angela",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93677029",
+        "tenantId": null
+      },
+      {
+        "reference": "6c003229-3ed3-49d1-a86a-26b988f65187",
+        "email": "Chelsea68@yahoo.com",
+        "firstName": "Maximillia",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1140.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "912a930c-73ee-42c6-a8bc-3091caecf359",
+        "email": "Delphine_Boyer80@hotmail.com",
+        "firstName": "Ramona",
+        "lastName": "Bauch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44797602",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "66ddd5cd-3d1b-4cc2-a6ae-9f17e74c6d68",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "phone": "1234567890",
+        "address": "123 Main St, City, State",
+        "created_at": "2023-08-15T12:15:18.969Z",
+        "updated_at": "2023-08-15T12:20:40.353Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ab2ca91-27eb-4ef7-a37c-b3faf28bb526",
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "phone": "9876543210",
+        "address": "456 Elm St, City, State",
+        "created_at": "2023-08-15T14:43:51.513Z",
+        "updated_at": "2023-08-15T21:54:22.453Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b35fb6d2-61c7-4368-8605-ecc5155ad9ba",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "phone": "5555555555",
+        "address": "789 Oak St, City, State",
+        "created_at": "2023-08-15T19:56:44.276Z",
+        "updated_at": "2023-08-15T16:40:07.405Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c6dc4eb-eac0-4248-973a-a8608950cb57",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "phone": "9999999999",
+        "address": "321 Pine St, City, State",
+        "created_at": "2023-08-16T00:19:24.915Z",
+        "updated_at": "2023-08-15T04:12:49.248Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d79af7c-eac3-415b-8df5-e32b3fb3a38e",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "phone": "1111111111",
+        "address": "654 Maple St, City, State",
+        "created_at": "2023-08-15T18:36:58.523Z",
+        "updated_at": "2023-08-15T18:18:22.919Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "3853b63f-b674-41ad-9e21-e27164667534",
+        "name": "Summer Sale",
+        "start_date": "2023-08-16T01:08:08.206Z",
+        "end_date": "2023-08-15T10:09:18.026Z",
+        "status": "Active",
+        "created_at": "2023-08-16T01:04:33.076Z",
+        "updated_at": "2023-08-15T15:32:38.134Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f3c4e97-feb4-4208-a063-dfc6aa5850fd",
+        "name": "Holiday Promotion",
+        "start_date": "2023-08-16T02:29:17.113Z",
+        "end_date": "2023-08-16T00:41:46.665Z",
+        "status": "Paused",
+        "created_at": "2023-08-15T15:26:21.735Z",
+        "updated_at": "2023-08-15T21:20:37.446Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29b377b0-5eb1-46d1-aa9c-ec1d6463204f",
+        "name": "New Product Launch",
+        "start_date": "2023-08-15T08:38:53.521Z",
+        "end_date": "2023-08-15T14:28:22.704Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T07:50:06.972Z",
+        "updated_at": "2023-08-15T16:23:17.569Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5681bcd4-7ced-428b-a34b-0f8b94c95438",
+        "name": "Back-to-School Campaign",
+        "start_date": "2023-08-15T22:47:48.201Z",
+        "end_date": "2023-08-15T07:13:45.304Z",
+        "status": "Upcoming",
+        "created_at": "2023-08-15T13:32:56.643Z",
+        "updated_at": "2023-08-15T07:04:47.449Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1890e0de-3c1f-493d-94f7-59073fd96d50",
+        "name": "End of Year Clearance",
+        "start_date": "2023-08-15T11:45:08.921Z",
+        "end_date": "2023-08-15T15:18:44.136Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T06:27:56.263Z",
+        "updated_at": "2023-08-15T15:08:02.771Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "lead": [
+      {
+        "id": "b9fa6fe2-c8cf-4400-a66c-03aebd5b5906",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "status": "New",
+        "created_at": "2023-08-15T15:37:30.272Z",
+        "updated_at": "2023-08-15T16:16:45.820Z",
+        "campaign_id": "3853b63f-b674-41ad-9e21-e27164667534",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24345fcd-5010-4a5b-b6e2-c871629a49de",
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "status": "Contacted",
+        "created_at": "2023-08-15T11:29:16.040Z",
+        "updated_at": "2023-08-15T07:57:57.232Z",
+        "campaign_id": "29b377b0-5eb1-46d1-aa9c-ec1d6463204f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "152d80bb-6f8e-4703-83a9-56f093872fff",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "status": "Qualified",
+        "created_at": "2023-08-15T09:13:55.919Z",
+        "updated_at": "2023-08-15T23:52:21.665Z",
+        "campaign_id": "1890e0de-3c1f-493d-94f7-59073fd96d50",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2d5150b-fa24-47d5-b86c-99395e78dc2e",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "status": "Lost",
+        "created_at": "2023-08-15T07:00:16.476Z",
+        "updated_at": "2023-08-15T10:12:50.973Z",
+        "campaign_id": "5f3c4e97-feb4-4208-a063-dfc6aa5850fd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42627b54-ca7e-4e25-a1d9-802da073ab4e",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "status": "Converted",
+        "created_at": "2023-08-15T10:36:53.756Z",
+        "updated_at": "2023-08-15T22:42:20.999Z",
+        "campaign_id": "5681bcd4-7ced-428b-a34b-0f8b94c95438",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "750e68d1-90e6-4cd8-aa13-b103d617ebb7",
+        "email": "Sherman_Huels63@yahoo.com",
+        "firstName": "Adela",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1054.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "60875c83-275b-4ee7-b4cd-09334cce4442",
+        "email": "Cesar88@hotmail.com",
+        "firstName": "Abraham",
+        "lastName": "Feest",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/314.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d841aa26-993f-47a8-af00-ba013461d229",
+        "email": "Molly_Jakubowski10@hotmail.com",
+        "firstName": "Yasmeen",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38077489",
+        "tenantId": null
+      },
+      {
+        "reference": "d741eccb-7a3b-49e7-802f-73aaed8ebf52",
+        "email": "Seth.Bartoletti@hotmail.com",
+        "firstName": "Tod",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73747452",
+        "tenantId": null
+      },
+      {
+        "reference": "af7349e0-95ca-4c81-ad8a-fcb8f44b2cbe",
+        "email": "Alan_Green@yahoo.com",
+        "firstName": "Shanel",
+        "lastName": "Lubowitz-Schneider",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1139.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "027e4f3c-cbb3-41fa-9be0-b7b9baa1ae33",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "phone": "1234567890",
+        "address": "123 Main St, City, State",
+        "created_at": "2023-08-16T00:19:27.885Z",
+        "updated_at": "2023-08-16T00:50:52.466Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18b50a2b-5587-4353-8ac9-aee9bdada2f9",
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "phone": "9876543210",
+        "address": "456 Elm St, City, State",
+        "created_at": "2023-08-16T00:10:22.639Z",
+        "updated_at": "2023-08-15T19:45:43.905Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc0d35f1-1cd3-43bc-8473-f4f87e146cdc",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "phone": "5555555555",
+        "address": "789 Oak St, City, State",
+        "created_at": "2023-08-15T17:03:37.207Z",
+        "updated_at": "2023-08-15T12:18:24.300Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e3f0875-6ecc-4c56-86f7-82336585d483",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "phone": "9999999999",
+        "address": "321 Pine St, City, State",
+        "created_at": "2023-08-15T10:35:09.358Z",
+        "updated_at": "2023-08-15T08:58:58.154Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74e0e96d-e93b-4bd1-8618-04dbbb64e55b",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "phone": "1111111111",
+        "address": "654 Maple St, City, State",
+        "created_at": "2023-08-15T05:25:06.475Z",
+        "updated_at": "2023-08-15T15:24:38.281Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "f5d72da6-b685-47f3-9d9f-59d8f40bd1b9",
+        "name": "Summer Sale",
+        "start_date": "2023-08-16T00:37:58.115Z",
+        "end_date": "2023-08-16T01:06:09.152Z",
+        "status": "Active",
+        "created_at": "2023-08-15T18:15:26.469Z",
+        "updated_at": "2023-08-15T22:05:35.146Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d10df333-e56f-46f0-aa17-3734e05ef459",
+        "name": "Holiday Promotion",
+        "start_date": "2023-08-15T20:31:10.565Z",
+        "end_date": "2023-08-15T16:37:22.026Z",
+        "status": "Paused",
+        "created_at": "2023-08-16T02:11:44.466Z",
+        "updated_at": "2023-08-16T00:37:07.320Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03a0f1e0-28a9-47e9-b3c7-69e43ad4e712",
+        "name": "New Product Launch",
+        "start_date": "2023-08-15T06:31:58.737Z",
+        "end_date": "2023-08-16T00:30:46.411Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T05:25:00.802Z",
+        "updated_at": "2023-08-15T08:01:46.405Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a401fc66-8638-4068-afb9-a7fb9dd0d88e",
+        "name": "Back-to-School Campaign",
+        "start_date": "2023-08-15T15:07:36.548Z",
+        "end_date": "2023-08-15T08:31:12.083Z",
+        "status": "Upcoming",
+        "created_at": "2023-08-15T20:53:05.188Z",
+        "updated_at": "2023-08-15T08:12:24.814Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70d24780-c04b-47d3-9f3f-007f8a49a8ed",
+        "name": "End of Year Clearance",
+        "start_date": "2023-08-15T08:24:44.994Z",
+        "end_date": "2023-08-15T08:07:32.134Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T20:58:06.699Z",
+        "updated_at": "2023-08-15T19:50:39.137Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "lead": [
+      {
+        "id": "0bff7513-c834-4b4b-8945-62af980c7c4a",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "status": "New",
+        "created_at": "2023-08-15T23:41:36.763Z",
+        "updated_at": "2023-08-16T00:52:31.218Z",
+        "campaign_id": "03a0f1e0-28a9-47e9-b3c7-69e43ad4e712",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0eb06bd0-b5af-4d62-8193-7b2034569348",
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "status": "Contacted",
+        "created_at": "2023-08-15T05:27:33.314Z",
+        "updated_at": "2023-08-15T16:29:19.771Z",
+        "campaign_id": "a401fc66-8638-4068-afb9-a7fb9dd0d88e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec85582b-cc1a-4523-a672-f282214982ef",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "status": "Qualified",
+        "created_at": "2023-08-15T07:04:27.361Z",
+        "updated_at": "2023-08-15T18:00:26.631Z",
+        "campaign_id": "f5d72da6-b685-47f3-9d9f-59d8f40bd1b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90c279b5-0cae-498b-8942-6b67f96c67f1",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "status": "Lost",
+        "created_at": "2023-08-15T19:36:37.807Z",
+        "updated_at": "2023-08-15T11:48:02.960Z",
+        "campaign_id": "f5d72da6-b685-47f3-9d9f-59d8f40bd1b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d710c628-8355-46bd-acc5-881eda40dce9",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "status": "Converted",
+        "created_at": "2023-08-15T04:51:41.428Z",
+        "updated_at": "2023-08-15T11:06:44.575Z",
+        "campaign_id": "f5d72da6-b685-47f3-9d9f-59d8f40bd1b9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "abad0521-7c8a-4f31-8caf-0b3fc61efdcd",
+        "email": "Antonio_Kihn96@gmail.com",
+        "firstName": "Olga",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84529430",
+        "tenantId": null
+      },
+      {
+        "reference": "1eb18567-94ab-49ce-8d59-a0f7e0f67e39",
+        "email": "Kaycee_Corwin64@gmail.com",
+        "firstName": "Lenny",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/938.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5cb57697-e24d-4227-a277-07d3fd692ddf",
+        "email": "Adolfo_Ruecker@gmail.com",
+        "firstName": "Dee",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39292548",
+        "tenantId": null
+      },
+      {
+        "reference": "8dc41265-4397-4402-95ff-13e95483aa31",
+        "email": "Arely.Kreiger@gmail.com",
+        "firstName": "Kareem",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95379365",
+        "tenantId": null
+      },
+      {
+        "reference": "af9cf70f-6e4d-47e7-8d6f-b5f9ad0489e2",
+        "email": "Frederic_Flatley@yahoo.com",
+        "firstName": "Tre",
+        "lastName": "Trantow-Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/299.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "b3034fff-9319-4b3a-ae62-3e43564d3cf8",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "phone": "1234567890",
+        "address": "123 Main St, City, State",
+        "created_at": "2023-08-15T05:09:24.601Z",
+        "updated_at": "2023-08-15T20:22:40.797Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bf355a0-16ba-4adf-b26d-0a1229d1e343",
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "phone": "9876543210",
+        "address": "456 Elm St, City, State",
+        "created_at": "2023-08-15T23:23:08.053Z",
+        "updated_at": "2023-08-15T04:32:44.416Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc9a19f7-f98f-44f8-99ad-a331ad384445",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "phone": "5555555555",
+        "address": "789 Oak St, City, State",
+        "created_at": "2023-08-15T12:21:39.967Z",
+        "updated_at": "2023-08-15T15:56:15.338Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4eafc9aa-31ff-47bc-b919-b84abeb6d40d",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "phone": "9999999999",
+        "address": "321 Pine St, City, State",
+        "created_at": "2023-08-15T05:36:55.852Z",
+        "updated_at": "2023-08-15T06:01:58.278Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff51a91a-e213-4758-832a-a577e0551300",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "phone": "1111111111",
+        "address": "654 Maple St, City, State",
+        "created_at": "2023-08-15T15:54:34.720Z",
+        "updated_at": "2023-08-15T08:24:55.309Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "a1a54a3d-ada9-4e86-b085-9b934a25481c",
+        "name": "Summer Sale",
+        "start_date": "2023-08-15T10:48:34.986Z",
+        "end_date": "2023-08-16T00:39:58.237Z",
+        "status": "Active",
+        "created_at": "2023-08-15T19:16:51.618Z",
+        "updated_at": "2023-08-16T01:28:03.925Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3d4a16a-400b-4295-82e3-e3c605cd7c30",
+        "name": "Holiday Promotion",
+        "start_date": "2023-08-16T01:11:02.847Z",
+        "end_date": "2023-08-15T13:01:08.267Z",
+        "status": "Paused",
+        "created_at": "2023-08-16T01:22:38.507Z",
+        "updated_at": "2023-08-15T06:42:33.383Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86fe01e2-d6ed-4b72-9394-8ba098dc1edb",
+        "name": "New Product Launch",
+        "start_date": "2023-08-15T12:21:05.670Z",
+        "end_date": "2023-08-15T17:01:07.834Z",
+        "status": "Completed",
+        "created_at": "2023-08-16T01:56:55.983Z",
+        "updated_at": "2023-08-15T06:29:35.073Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf147e11-6e49-444a-9571-001230804593",
+        "name": "Back-to-School Campaign",
+        "start_date": "2023-08-15T16:22:06.139Z",
+        "end_date": "2023-08-15T20:18:45.304Z",
+        "status": "Upcoming",
+        "created_at": "2023-08-15T10:56:20.141Z",
+        "updated_at": "2023-08-15T14:09:44.757Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4ca8241-973e-46ed-801c-9db9cab9a3b7",
+        "name": "End of Year Clearance",
+        "start_date": "2023-08-15T18:38:40.341Z",
+        "end_date": "2023-08-15T08:45:10.138Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T13:07:11.520Z",
+        "updated_at": "2023-08-15T17:13:22.082Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "lead": [
+      {
+        "id": "10057e81-0b6f-4d6f-8bd4-56b996065caa",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "status": "New",
+        "created_at": "2023-08-15T10:03:52.728Z",
+        "updated_at": "2023-08-15T17:12:56.071Z",
+        "campaign_id": "a1a54a3d-ada9-4e86-b085-9b934a25481c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e057825d-203e-494a-bb2d-901ce11868f0",
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "status": "Contacted",
+        "created_at": "2023-08-15T12:51:42.892Z",
+        "updated_at": "2023-08-15T18:55:52.071Z",
+        "campaign_id": "cf147e11-6e49-444a-9571-001230804593",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ed1963d-b5af-43aa-9917-b888082e40df",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "status": "Qualified",
+        "created_at": "2023-08-15T13:18:26.116Z",
+        "updated_at": "2023-08-15T16:00:34.713Z",
+        "campaign_id": "c3d4a16a-400b-4295-82e3-e3c605cd7c30",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8a02030-d698-4b72-8e93-04a23486903c",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "status": "Lost",
+        "created_at": "2023-08-16T00:00:41.259Z",
+        "updated_at": "2023-08-15T06:07:43.975Z",
+        "campaign_id": "e4ca8241-973e-46ed-801c-9db9cab9a3b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6de8cc76-e6a7-4fa5-b609-16f7acf65e8a",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "status": "Converted",
+        "created_at": "2023-08-16T00:05:00.631Z",
+        "updated_at": "2023-08-15T07:44:41.350Z",
+        "campaign_id": "a1a54a3d-ada9-4e86-b085-9b934a25481c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "45b3f8b5-d181-4dc9-b41a-b49135123ea5",
+        "email": "Kariane.Towne85@hotmail.com",
+        "firstName": "Delphine",
+        "lastName": "Oberbrunner-Legros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60312789",
+        "tenantId": null
+      },
+      {
+        "reference": "0c41e10e-253d-415e-bda3-39f42bf7643e",
+        "email": "Ethelyn.Buckridge@yahoo.com",
+        "firstName": "Malachi",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/459.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9bfb34bc-d5a7-41ed-beba-52a88ec313d0",
+        "email": "Violet_Smith67@yahoo.com",
+        "firstName": "Adelia",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/101.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9b88a9bd-e9cf-475c-bb8e-aa49a5fb3195",
+        "email": "Tyreek.McGlynn19@gmail.com",
+        "firstName": "Florida",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36435799",
+        "tenantId": null
+      },
+      {
+        "reference": "e1b1c82c-776e-4d68-bcea-6730e9b91417",
+        "email": "Deshawn.Nader17@yahoo.com",
+        "firstName": "Colin",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98867542",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "51ad7729-208a-4af9-99bb-7dfca6c1414b",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "phone": "1234567890",
+        "address": "123 Main St, City, State",
+        "created_at": "2023-08-15T10:55:00.924Z",
+        "updated_at": "2023-08-15T09:23:54.559Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d61e3d6a-6ef8-4ede-9fb9-241b10b2778a",
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "phone": "9876543210",
+        "address": "456 Elm St, City, State",
+        "created_at": "2023-08-15T14:54:54.314Z",
+        "updated_at": "2023-08-15T05:40:38.918Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2df87dd7-0d66-4b47-b5d9-c420fb45a274",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "phone": "5555555555",
+        "address": "789 Oak St, City, State",
+        "created_at": "2023-08-15T09:20:12.847Z",
+        "updated_at": "2023-08-15T16:21:42.808Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f883c97b-9cce-4548-8aab-40cd63b757fb",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "phone": "9999999999",
+        "address": "321 Pine St, City, State",
+        "created_at": "2023-08-15T09:37:00.597Z",
+        "updated_at": "2023-08-15T09:47:22.753Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66a04af1-494d-4aa8-81b6-89ab2860a626",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "phone": "1111111111",
+        "address": "654 Maple St, City, State",
+        "created_at": "2023-08-15T19:14:52.309Z",
+        "updated_at": "2023-08-15T15:24:44.338Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "46e5b3e8-4c44-4d9b-8cbe-741227d50b13",
+        "name": "Summer Sale",
+        "start_date": "2023-08-15T06:52:57.041Z",
+        "end_date": "2023-08-15T18:50:11.271Z",
+        "status": "Active",
+        "created_at": "2023-08-16T00:07:30.965Z",
+        "updated_at": "2023-08-15T08:22:55.547Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba57f651-2f35-4ad5-a982-3249dcd25377",
+        "name": "Holiday Promotion",
+        "start_date": "2023-08-15T04:07:25.771Z",
+        "end_date": "2023-08-15T06:40:20.587Z",
+        "status": "Paused",
+        "created_at": "2023-08-15T05:16:50.777Z",
+        "updated_at": "2023-08-15T23:33:59.847Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "942eee40-d9c5-485e-a8fc-3c17717d7d3d",
+        "name": "New Product Launch",
+        "start_date": "2023-08-15T07:39:17.114Z",
+        "end_date": "2023-08-15T20:55:05.674Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T13:48:11.084Z",
+        "updated_at": "2023-08-15T22:14:51.253Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f3a715e-ba4f-41aa-a09d-841e9f4c35db",
+        "name": "Back-to-School Campaign",
+        "start_date": "2023-08-15T21:29:04.595Z",
+        "end_date": "2023-08-15T17:45:48.525Z",
+        "status": "Upcoming",
+        "created_at": "2023-08-15T16:51:57.832Z",
+        "updated_at": "2023-08-15T03:51:20.951Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16292be8-13b3-4fa2-a34f-11b19645254a",
+        "name": "End of Year Clearance",
+        "start_date": "2023-08-15T07:31:12.470Z",
+        "end_date": "2023-08-15T19:30:06.181Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T13:07:14.128Z",
+        "updated_at": "2023-08-15T02:51:38.900Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "lead": [
+      {
+        "id": "44e12ad2-8f4a-4e95-a7a3-4566df18d3a0",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "status": "New",
+        "created_at": "2023-08-15T07:14:27.767Z",
+        "updated_at": "2023-08-15T14:56:32.132Z",
+        "campaign_id": "ba57f651-2f35-4ad5-a982-3249dcd25377",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1747d824-0ade-4f8d-bd15-220a93a05fda",
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "status": "Contacted",
+        "created_at": "2023-08-16T02:41:07.282Z",
+        "updated_at": "2023-08-15T04:10:53.475Z",
+        "campaign_id": "16292be8-13b3-4fa2-a34f-11b19645254a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a299dcd-cf2d-4c14-9b70-e60903b204cc",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "status": "Qualified",
+        "created_at": "2023-08-16T01:39:07.304Z",
+        "updated_at": "2023-08-15T09:26:58.702Z",
+        "campaign_id": "ba57f651-2f35-4ad5-a982-3249dcd25377",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a0be804-cc7d-489d-b17f-31e1c696aa25",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "status": "Lost",
+        "created_at": "2023-08-15T04:11:07.755Z",
+        "updated_at": "2023-08-15T17:36:32.545Z",
+        "campaign_id": "16292be8-13b3-4fa2-a34f-11b19645254a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a24ddf7a-5729-440c-a48e-ae6d19fd950f",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "status": "Converted",
+        "created_at": "2023-08-15T19:35:43.412Z",
+        "updated_at": "2023-08-15T11:07:52.478Z",
+        "campaign_id": "9f3a715e-ba4f-41aa-a09d-841e9f4c35db",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "60c14622-8d54-43f7-88c9-f6eae5dc246d",
+        "email": "Jaquan8@hotmail.com",
+        "firstName": "Agnes",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/613.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a722ed7c-27e5-4431-b204-48e6462c2905",
+        "email": "Kay_Hackett@hotmail.com",
+        "firstName": "Maybell",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10227706",
+        "tenantId": null
+      },
+      {
+        "reference": "f8c8e59a-c869-4c81-ac7a-d3aa9cd5e0ea",
+        "email": "Theodore_Hermann-Kilback32@gmail.com",
+        "firstName": "Ardella",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59542347",
+        "tenantId": null
+      },
+      {
+        "reference": "51000ca4-7968-46be-b4b0-9a8474b6c7bc",
+        "email": "Gerardo_Schmeler87@hotmail.com",
+        "firstName": "Melba",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7301374",
+        "tenantId": null
+      },
+      {
+        "reference": "31a80977-d455-45a5-a764-fbc97c19657f",
+        "email": "Odessa_Ondricka13@gmail.com",
+        "firstName": "Vivian",
+        "lastName": "Turcotte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1131.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "187c1534-4805-4928-b041-3ed4c7cb2b56",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "phone": "1234567890",
+        "address": "123 Main St",
+        "created_at": "2023-08-15T20:34:22.495Z",
+        "updated_at": "2023-08-15T09:27:54.878Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "740dc679-8260-4908-9630-b3d824c13d16",
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "phone": "9876543210",
+        "address": "456 Elm St",
+        "created_at": "2023-08-15T12:16:15.180Z",
+        "updated_at": "2023-08-15T19:51:20.660Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5332282a-1494-41f5-a6ee-900e7346d61d",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "phone": "5555555555",
+        "address": "789 Oak St",
+        "created_at": "2023-08-15T13:08:24.131Z",
+        "updated_at": "2023-08-15T20:53:31.826Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e0e7643-a6df-414d-96e0-3a785d40dd35",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "phone": "9999999999",
+        "address": "321 Pine St",
+        "created_at": "2023-08-15T20:35:42.889Z",
+        "updated_at": "2023-08-15T11:45:29.164Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33bccdbb-70f9-4ab1-85cf-fdcee795e7a7",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "phone": "1111111111",
+        "address": "654 Maple St",
+        "created_at": "2023-08-15T09:16:22.390Z",
+        "updated_at": "2023-08-16T00:36:02.784Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "6bc62561-a1ed-4028-8c32-20b3c73c5e35",
+        "name": "Summer Sale",
+        "start_date": "2023-08-15T18:30:46.460Z",
+        "end_date": "2023-08-15T14:37:25.925Z",
+        "status": "Active",
+        "created_at": "2023-08-16T01:53:27.034Z",
+        "updated_at": "2023-08-15T19:53:09.168Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ceee9710-2d6e-47eb-a51b-6abc65328776",
+        "name": "Holiday Promotion",
+        "start_date": "2023-08-15T21:10:08.159Z",
+        "end_date": "2023-08-15T06:27:57.596Z",
+        "status": "Paused",
+        "created_at": "2023-08-16T01:04:45.464Z",
+        "updated_at": "2023-08-15T15:40:45.071Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e24f8ae-dd6d-46d9-86a7-0952a3a3e64b",
+        "name": "New Product Launch",
+        "start_date": "2023-08-15T19:51:48.289Z",
+        "end_date": "2023-08-15T11:37:38.436Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T16:32:51.679Z",
+        "updated_at": "2023-08-15T13:52:55.979Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d011aced-dafc-4ea4-a84d-8db89f4059e6",
+        "name": "Back-to-School Campaign",
+        "start_date": "2023-08-15T03:30:14.563Z",
+        "end_date": "2023-08-15T15:26:21.962Z",
+        "status": "Upcoming",
+        "created_at": "2023-08-15T11:36:02.961Z",
+        "updated_at": "2023-08-15T14:56:47.543Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50b7fbd1-5685-4c21-be97-1d3bff495eb2",
+        "name": "End of Year Clearance",
+        "start_date": "2023-08-15T08:50:41.886Z",
+        "end_date": "2023-08-16T02:32:41.136Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T03:16:46.413Z",
+        "updated_at": "2023-08-15T14:04:51.025Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "lead": [
+      {
+        "id": "fa234590-24db-4ca1-bfd5-27b59772a2b9",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "status": "New",
+        "created_at": "2023-08-15T06:14:04.537Z",
+        "updated_at": "2023-08-15T08:27:53.783Z",
+        "campaign_id": "d011aced-dafc-4ea4-a84d-8db89f4059e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5306912f-8493-4eee-b4bb-91c8bb73e046",
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "status": "Contacted",
+        "created_at": "2023-08-15T08:12:03.653Z",
+        "updated_at": "2023-08-15T03:50:38.983Z",
+        "campaign_id": "ceee9710-2d6e-47eb-a51b-6abc65328776",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec90d3e0-14ed-4dae-a65c-a5b2d534ecff",
+        "name": "Michael Brown",
+        "email": "michael.brown@example.com",
+        "status": "Qualified",
+        "created_at": "2023-08-15T05:43:23.670Z",
+        "updated_at": "2023-08-15T12:20:52.927Z",
+        "campaign_id": "d011aced-dafc-4ea4-a84d-8db89f4059e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aad081b3-4be3-4cf8-96b4-f67bd0cb4d4d",
+        "name": "Sarah Jones",
+        "email": "sarah.jones@example.com",
+        "status": "Lost",
+        "created_at": "2023-08-15T22:29:59.968Z",
+        "updated_at": "2023-08-15T04:05:18.282Z",
+        "campaign_id": "50b7fbd1-5685-4c21-be97-1d3bff495eb2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d05d9b30-9690-4217-b0b0-252f2f497b15",
+        "name": "David Wilson",
+        "email": "david.wilson@example.com",
+        "status": "Converted",
+        "created_at": "2023-08-15T17:48:56.114Z",
+        "updated_at": "2023-08-15T04:41:32.860Z",
+        "campaign_id": "6bc62561-a1ed-4028-8c32-20b3c73c5e35",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3e35c449-bb33-4124-aa19-8492f3486279",
+        "email": "Allie1@hotmail.com",
+        "firstName": "Yoshiko",
+        "lastName": "Stoltenberg-Abshire",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16218973",
+        "tenantId": null
+      },
+      {
+        "reference": "787f54a7-552c-429c-84bc-7d2d3b03f981",
+        "email": "Letha_Schuppe57@yahoo.com",
+        "firstName": "Cassandre",
+        "lastName": "Flatley-Ratke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97729998",
+        "tenantId": null
+      },
+      {
+        "reference": "b45ae8c2-d040-47b3-8187-2852e5ae9fa9",
+        "email": "Marques_Schuster6@hotmail.com",
+        "firstName": "Ivah",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/490.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "32b2d39f-9f58-4870-bdbb-26b48b237261",
+        "email": "Hiram_Beer@yahoo.com",
+        "firstName": "Ned",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/464.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "029ed18b-74b4-4781-aa3c-7d61f0bcf3cb",
+        "email": "Reilly37@gmail.com",
+        "firstName": "Bonnie",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/507.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
